@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .nav_child{
+            margin-right: 35px;
+        }
+
+        .nav_child > a {
+            text-decoration: none;
+            color: black;
+            padding: 5px;
+        }
+
+        .nav_child>a:hover{
+            border: 1px solid orangered;
+            border-radius: 5px;
+            background-color: indianred;
+            color: rgb(255, 255,255);
+        }
+    </style>
 </head>
 <body>
     <!-- h1 has more imortance than h2 than h3 and so on -->
@@ -77,5 +95,64 @@
     </table>
 
     <img src="https://images.unsplash.com/photo-1682686580922-2e594f8bdaa7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="This is alone img" width="400px"/>
+
+    <!-- <p><img src="" alt=""></p>
+
+    <p>
+        <p>
+            <p>
+                <p></p>
+            </p>
+        </p>
+    </p> -->
+
+    <!-- article+section -- emmet shortcut-->
+    <article></article>
+    <section></section>
+
+    <!-- p{This is my first paragraph} -- emmet shotcut -->
+    <p>This is my first paragraph</p>
+    <h2>this is third heading</h2>
+
+    <!-- p>lorem7 -- emmet shortcut -->
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+    <!-- p#par1 emmet shortcut-->
+    <p id="para1"></p>
+
+    <article id="article"></article>
+
+    <!-- section.lion.dog.billi emmet shortcut-->
+    <section class="lion dog billi"></section>
+    
+    <div>
+        <p></p>
+        <header></header>
+        <main></main>
+        <footer></footer>
+    </div>
+
+    <!-- Block and Linline Element -->
+
+    <div class="block" style="background-color: indianred;">This is Block elment</div>
+    <div class="block" style="background-color: cadetblue;">This is Block Element</div>
+
+    <span style="background-color: indianred">This is Inline Element</span>
+    <span style="background-color: cadetblue;">This is Inline Element</span>
+    
+    <p style="display: inline; background-color: indianred;">This is Block1</p>
+    <p style="background-color: cadetblue;">This is Block2 </p>
+
+    <nav>
+        <ul style="display: flex; justify-content: flex-end; list-style-type: none;">
+            <li class="nav_child"><a href="https://www.google.com">Google</a></li>
+            <li class="nav_child"><a href="https://www.facebook.com">FaceBook</a></li>
+            <li class="nav_child"><a href="https://www.instagram.com">Instagram</a></li>
+            <li class="nav_child"><a href="https://www.google.com">Google</a></li>
+        </ul>
+    </nav>
+
+
+    
 </body>
 </html>

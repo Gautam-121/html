@@ -57,3 +57,56 @@ formating tag => br , hr , strong , em , sub , sup , title , u , s , b , i , pre
 
 # can We use multiple h1 tag in page?
 Yes, you can use multiple <h1> tags in HTML, but it is generally considered a best practice to have only one <h1> tag per page. The <h1> tag is used to define the main heading of a page and should describe the content of the entire page. Using multiple <h1> tags can make it harder for search engines and screen readers to understand the structure of your page . However, with the introduction of HTML5, using multiple <h1> tags within different sections of a page is now accepted as semantically correct.
+
+
+emmet --> shorcut to generate full code
+
+emmet abbr
+ element -> nested ==> "> --> p>img 
+
+ ul>li*3
+
+ table>tr>td*2
+
+ table>(tr>td*3)*3
+
+ article+section 
+    <article></article>
+    <section></section>
+
+p{this is text} <p>This is Text</p>
+
+p#para1 <p id=para1></p>
+
+p.love <p class="love"></p>
+
+article.cars.range.rover <article class = "cars range rover"></article>
+
+a{click here} <a href = "">Click Here</a>
+
+{} > + *
+
+div tag ==> ka use aap kr skte ho
+division create krne ke liye , ye ek
+generic container hai , jo wrapping ke liye use hota hai
+
+ <div>
+        <p></p>
+        <header></header>
+        <main></main>
+        <footer></footer>
+</div>
+
+Block and Inline Element 
+
+Block elment --> always start with nect line
+aur wo pure screen ki width contain krta hai
+
+Inline Element --> start with same line and wo 
+jitna cobtain hai utna hi width occupied krta hai
+
+# how can i change block elment into inline and inline into block
+So css display property we use for interchanging block to inline and inline to block
+display : inline (converting Block elment into inline element)
+display : Block (converting Inline Element into Block element)
+
