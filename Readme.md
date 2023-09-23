@@ -110,3 +110,15 @@ So css display property we use for interchanging block to inline and inline to b
 display : inline (converting Block elment into inline element)
 display : Block (converting Inline Element into Block element)
 
+
+# What is Table
+Table is Arrengement of Row and Column
+
+table
+thead -- Header of arrengement use thead me insert krni hai
+tbody -- tbody jisme actual contain present rhenga
+tfoot -- tfoot unka sum koi operation 
+
+tr -- tr tag jisse row create kr sakte hai
+td -- table data add kr sakte hai , as column
+th -- th thead me jo heading hai us heading ko bold main heading dikhane ke liye ise use krte hai
