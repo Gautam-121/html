@@ -45,11 +45,11 @@ meaning => tags into two parts => sementic tag and non-sementic tag
 
 non-semantic tag => those tag don't provide any meaning what the tag do
 
-Ex => div , spane
+Ex => div , span
 
 sementic tag => those tag provide meaning what this tag do
 
-Ex=> header , footer , main , article , aside , section , nav , fotm  and so on
+Ex=> header , footer , main , article , aside , section , nav , form  and so on
 
 h1-h6 , p , a , ul , ol , table , tr , td , img , form , input , option , select
 
@@ -152,10 +152,11 @@ attribute se one to one map krna hai
     - button
     - textArea - ek description content user se lina hai to textArea Use krte hai
     - fieldset -- fieldset ka use kisi contain ka wrapping krne ke liye use kiya jata hai
-    - legend
+    - legend --> use wrapping container ko caption ke liye
 
 # suppose muzhe dropdown ke under multiple dropdown select krne ho -->> it is possible in select option , if this possible so how can do
 
+Yes , we can select multiple option in select dropdown , using boolean attribute "multiple"
 
 
 

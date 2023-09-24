@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Job Application</h1>
+
+    <form>
+
+        <label for="name">name</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="name">
+        <br>
+        <br>
+
+        <label for="phone">Phone</label>
+        <input type="tel" name="phone" id="phone">
+        <br>
+        <br>
+
+        <label for="Resume">Resume</label>
+        <input type="file" name="Resume" id="Resume">
+        <br>
+        <br>
+
+        <label for="experience">Experience (Year)</label>
+        <input type="number" name="experience" id="experience" max="50" min="0" value="0">
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Topic Of Interest</legend>
+            <input type="checkbox" id="html" name="html">
+            <label for="html">HTML</label>
+            <br>
+
+            <input type="checkbox" id="css" name="css">
+            <label for="html">CSS</label>
+            <br>
+
+            <input type="checkbox" id="html" name="javascript">
+            <label for="html">Javascript</label>
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="higher-education">higher-education</label>
+        <select name="higher-education" id="higher-education">
+            <option value="high school">High School</option>
+            <option value="low school">Low School</option>
+            <option value="Graduation">Graduation</option>
+        </select>
+        <br>
+        <br>
+
+        <fieldset>
+
+            <legend>Avaibillity</legend>
+
+            <label for="fullPart">FullPart</label>
+            <input type="radio" id="fullPart" name="jobTiming">
+            <br>
+            <label for="partTimming">PartTimming</label>
+            <input type="radio" id="partTimming" name="jobTiming">
+            <br>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="ac">Additional Cooment</label><br>
+        <textarea name="additionalAccont" id="ac" cols="30" rows="10"></textarea>
+
+    </form>
+</body>
+</html>
