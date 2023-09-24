@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <!-- fieldset se hmne pure ek section ko box ke under wrap krdiya -->
+        <fieldset>
+            <!-- using legend hmne us wrapper ko ek ek caption de diya -->
+            <legend>HTML FORM DUMMY</legend>
+            <label for="email">Enter Email ID</label>
+            <input type="email" id="email" placeholder="Enter Your Email" name="mail"
+                value="gautamdhakate1234@gmail.com" />
+            <br /><br />
+
+            <label for="password">Enter Password</label>
+            <input type="password" id="password" placeholder="Enter Your Password" name="passwordId" />
+            <br /><br />
+
+            <input type="submit" value="Click Here" />
+            <button type="submit">Click Here</button>
+    </form>
+    <br />
+    <br />
+    <form>
+        <label for="datePicker">Choose Date</label>
+        <input type="date" name="" id="datePicker" />
+        <br /><br />
+        <label for="selector1">Choose Your Dish</label>
+        <select name="dishes" id="selector1">
+            <option value="maggi" s>Maggi</option>
+            <option value="kurkure">Kurkur</option>
+            <option value="chips" selected>Chips</option>
+        </select>
+        <br /><br />
+
+        <label for="dino-select">Choose a dinosaur:</label>
+        <select id="dino-select">
+            <optgroup label="Theropods">
+                <option>Tyrannosaurus</option>
+                <option>Velociraptor</option>
+                <option>Deinonychus</option>
+            </optgroup>
+            <optgroup label="Sauropods">
+                <option>Diplodocus</option>
+                <option>Saltasaurus</option>
+                <option>Apatosaurus</option>
+            </optgroup>
+        </select>
+        <br>
+        <br>
+        <button>Mai Hu Button</button>
+        <br>
+        <label for="textArea">Enter Description</label>
+        <textarea name="textArea1" id="textArea" cols="30" rows="10" placeholder="Enter Description"></textarea>
+        </fieldset>
+    </form>
+    <br><br><br>
+    <form>
+        <label for="fname">Enter First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Fname">
+        <input type="submit" value="Submit">
+        <br><br>
+
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="male">
+        <br><br>
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="female">
+        <br><br>
+
+        <label for="Others">Others</label>
+        <input type="radio" name="gender" id="Others">
+        <br><br>
+
+        <label for="checkbox1">English</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <br>
+        <label for="checkbox2">English</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1">
+        <br>
+        <label for="uploadFile">UploadFile</label>
+        <input type="file" name="fileUpload" id="uploadFile">
+        <br>
+        
+    </form>
+</body>
+
+</html>

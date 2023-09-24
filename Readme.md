@@ -121,4 +121,50 @@ tfoot -- tfoot unka sum koi operation
 
 tr -- tr tag jisse row create kr sakte hai
 td -- table data add kr sakte hai , as column
-th -- th thead me jo heading hai us heading ko bold main heading dikhane ke liye ise use krte hai
+th -- th thead me jo heading hai us heading ko bold main hea/ding dikhane ke liye ise use krte hai
+
+# Forms -- what is Forms
+
+forms -- structure --> To collect user Input
+
+<form> --> to create HTML forms for user input
+
+<input> -- Many Forms 
+     type - radio , submit , checkbox , date 
+            text , email , password 
+    id = map with for of label
+    name = us value ko puchne ke liye tere under user ne kya data dala wo dekhne ke liye
+    placeholder = to inform user yha kya insert krna hai
+    value = us input filed ki value kya hai
+
+<input type"text" id="email" name="mail" placeholder="Enter Your Mail" value=""/>
+
+<Label> --> Ka for="" attrribute input ke id=""
+attribute se one to one map krna hai
+
+
+# Form Element Ke Under Aur Kya kya insert Kr Sakta hu
+   
+    - Input
+    - Label
+    - select  --> Drop Down Box create krne ke liye --> Us box me value dalne ke liye
+        -- select ke under hm option likhte hai
+    - button
+    - textArea - ek description content user se lina hai to textArea Use krte hai
+    - fieldset -- fieldset ka use kisi contain ka wrapping krne ke liye use kiya jata hai
+    - legend
+
+# suppose muzhe dropdown ke under multiple dropdown select krne ho -->> it is possible in select option , if this possible so how can do
+
+
+
+
+# input type
+  - text
+  - button
+  - radio
+  - checkbox
+  - password
+  - email
+  - date
+  - img
