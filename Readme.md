@@ -158,8 +158,6 @@ attribute se one to one map krna hai
 
 Yes , we can select multiple option in select dropdown , using boolean attribute "multiple"
 
-
-
 # input type
   - text
   - button
@@ -169,3 +167,23 @@ Yes , we can select multiple option in select dropdown , using boolean attribute
   - email
   - date
   - img
+
+# Media in HTML
+  <!-- Add Image To html page -->
+    <img src="" alt="" width="" height=""/>
+
+    <!-- Add Video To HTML -->
+    <video src=""controls autoplay muted></video>
+
+    <video controls autoplay muted loop>
+        <source src="" type="video/mp4"/>
+    </video>
+
+    <!-- Add Audio To HTML  -->
+    <audio src="" controls autoplay muted loop></audio>
+
+    <audio controls autoplay muted loop>
+        <source src="" type="audio/mp3"/>
+    </audio>
+
+    <iframe src="https://www.youtube.com/embed/te7iK3-f0IY" width="450 height="250"><iframe>
